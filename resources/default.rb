@@ -22,7 +22,7 @@ property :mirror,              String, default: 'http://apache.mirrors.tds.net/z
 property :checksum,            String
 property :username,            String, default: 'zookeeper'
 property :user_home,           String, default: '/home/zookeeper'
-property :install_dir,         String, default: '/opt'
+property :install_dir,         String, default: '/opt/zookeeper'
 property :log_dir,             String, default: '/var/log/zookeeper'
 property :data_dir,            String, default: '/var/lib/zookeeper'
 property :use_java_cookbook,   [true, false], default: true
